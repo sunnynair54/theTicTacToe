@@ -1,0 +1,48 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Tic-Tac-Toe</title>
+</head>
+
+<body>
+    <main class="background">
+        <div class="title">
+            <h1>Tic-Tac-Toe</h1>
+        </div>
+        <div class="playerNames">
+            <h2>
+                <label class="NameX"">Player X:</label>
+                <input type=" text" id="TextX" name="Name" placeholder="You go First">
+                    <label class="NameO">Player O:</label>
+                    <input type="text" id="TextO" name="Name" placeholder="You go Second">
+            </h2>
+        </div>
+        <div class="display">
+            Player <span class="display-player playerX">X</span>'s turn
+        </div>
+        <div class="container">
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+        </div>
+        <div class="display announcer hide"></div>
+        <div class="controls">
+            <button id="singlePlayer"> Single Player</button>
+            <button id="reset">Reset</button>
+        </div>
+    </main>
+    <script src="tictactoe.js" defer></script>
+</body>
+
+</html>
