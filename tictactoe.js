@@ -89,7 +89,7 @@ const isValidAction = (tile) => {
     if (tile.innerText === 'X' || tile.innerText === 'O') {
         return false;
     }
-    // console.log("valid")
+    // console.log("valid") 
     return true;
 };
 
